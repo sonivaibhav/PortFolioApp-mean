@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://sonivaibhav:vaibhav007@mongo.onmodulus.net:27017/uw45mypu',
+	db: 'mongodb://localhost/PortFolioApp',
     //db: 'mongodb://vaibhav:vaibhav007@kahana.mongohq.com:10077/meanjs',
 	app: {
-		title: 'MEAN.JS - Development Environment'
+		title: 'Vaibhav PortFolioApp'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
